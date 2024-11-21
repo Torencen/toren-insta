@@ -21,7 +21,7 @@ export default function SimpleBottomNavigation() {
         showLabels
         value={value}
         onChange={(event, newValue) => {
-          setValue(newValue);
+          setValue(newValue); 
           // Add navigation logic
           if (newValue === 0) router.push('/');
           if (newValue === 1) router.push('/profile');
